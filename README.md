@@ -47,11 +47,11 @@ npm run dev
 ### Opción 1: Desde GitHub (Recomendado)
 
 1. Importar el repositorio en Vercel: https://vercel.com/new
-2. Configurar las variables de entorno en Vercel:
-   - `DB_HOST`: crumenprod01.mysql.database.azure.com
-   - `DB_USER`: azavala
-   - `DB_PASSWORD`: Z4vaLA$Ant
-   - `DB_NAME`: bdcdttx
+2. Configurar las variables de entorno en Vercel (usar credenciales reales de Azure):
+   - `DB_HOST`: Tu host de MySQL Azure
+   - `DB_USER`: Tu usuario de base de datos
+   - `DB_PASSWORD`: Tu contraseña segura
+   - `DB_NAME`: Tu nombre de base de datos
    - `DB_PORT`: 3306
 3. Hacer clic en "Deploy"
 
@@ -102,13 +102,14 @@ CDT/
 
 ## Configuración de Base de Datos
 
-El proyecto está configurado para conectarse a MySQL Azure con las siguientes especificaciones:
+El proyecto está configurado para conectarse a MySQL Azure. Configura las siguientes variables de entorno:
 
-- **Host**: crumenprod01.mysql.database.azure.com
-- **Database**: bdcdttx
-- **User**: azavala
-- **Port**: 3306
-- **SSL**: Habilitado
+- **DB_HOST**: Host de MySQL Azure
+- **DB_NAME**: Nombre de la base de datos
+- **DB_USER**: Usuario de la base de datos
+- **DB_PORT**: Puerto (por defecto 3306)
+- **DB_PASSWORD**: Contraseña de acceso
+- **SSL**: Habilitado con verificación de certificados
 
 ## Licencia
 

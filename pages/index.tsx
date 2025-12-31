@@ -86,10 +86,10 @@ export default function Home() {
           <div className={styles.info}>
             <h3>Información de Configuración</h3>
             <ul>
-              <li><strong>Host:</strong> crumenprod01.mysql.database.azure.com</li>
-              <li><strong>Base de Datos:</strong> bdcdttx</li>
+              <li><strong>Host:</strong> Configurado vía variables de entorno</li>
+              <li><strong>Base de Datos:</strong> Configurado vía variables de entorno</li>
               <li><strong>Puerto:</strong> 3306</li>
-              <li><strong>Usuario:</strong> azavala</li>
+              <li><strong>SSL:</strong> Habilitado</li>
             </ul>
           </div>
         </div>

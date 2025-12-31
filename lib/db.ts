@@ -9,7 +9,7 @@ export async function connectToDatabase() {
       database: process.env.DB_NAME,
       port: parseInt(process.env.DB_PORT || '3306'),
       ssl: {
-        rejectUnauthorized: false
+        rejectUnauthorized: true
       }
     });
     
