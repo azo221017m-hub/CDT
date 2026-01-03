@@ -1,0 +1,31 @@
+.footer {
+  position: relative;
+  z-index: 10;
+  background: rgba(20, 10, 40, 0.95);
+  backdrop-filter: blur(10px);
+  padding: 2rem 0;
+  border-top: 2px solid rgba(167, 139, 250, 0.3);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  text-align: center;
+}
+
+.copyright {
+  font-size: 0.95rem;
+  color: rgba(255, 255, 255, 0.7);
+  margin: 0;
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 0 1rem;
+  }
+
+  .copyright {
+    font-size: 0.85rem;
+  }
+}
